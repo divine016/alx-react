@@ -1,9 +1,5 @@
 import $ from "jquery";
 
-$(function() {
-    var txt1 = $("<p></p>").text("Holberton Dashboard"); 
-    var txt2 = $("<p></p>").text("Dashboard data for the students"); 
-    var txt3 = $("<p></p>").text("Copyright - Holberton School");  
-    
-    $("body").append(txt1, txt2, txt3);
-});
+$('body').append('<p>Holberton Dashboard</p>');
+$('body').append('<p>Dashboard data for the students</p>');
+$('body').append('<p>Copyright - Holberton School</p>');
